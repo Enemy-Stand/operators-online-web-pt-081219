@@ -10,8 +10,8 @@ end
 
 
 def not_safe?(speed)
-  binding.pry
 	if speed < 40 || speed > 60 ? TRUE : FALSE
+	binding.pry
 	end
 end
 	
